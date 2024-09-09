@@ -8,7 +8,7 @@ import re
 # from streamlit_option_menu import option_menu
 
 # clean data
-sex_df = pd.read_csv('sex_intercourse_subnational_clean.csv', header=0)
+sex_df = pd.read_csv('src/sex_intercourse_subnational_clean.csv', header=0)
 sex_df = sex_df[['Location',  'indicateur', 'periode',  'sex','year','Value']]
 print(sex_df.head())
 
